@@ -20,6 +20,7 @@ const App = () => {
       </React.Suspense>
       <h1 style={h1Style}>Bienvenue sur le Remote site de Tokyo Ghoul</h1>
       <LocalButton />
+      <h3> Bienvenu sur notre page remote de notre si Tokyo Goules, si vous souhaitez acceder a la liste des recherches de goules aller sur le liens host</h3>
       <React.Suspense fallback="Loading Footer">
         <Footer />
       </React.Suspense>
