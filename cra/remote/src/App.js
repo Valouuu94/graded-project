@@ -6,7 +6,7 @@ const Header = React.lazy(() => import('shared/Header'));
 const Footer = React.lazy(() => import('shared/Footer'));
 const App = () => (
   <div>
-      <React.Suspense fallback="Loading Header">
+    <React.Suspense fallback="Loading Header">
       <Header />
     </React.Suspense>
     <h1>Basic Host-Remote</h1>
