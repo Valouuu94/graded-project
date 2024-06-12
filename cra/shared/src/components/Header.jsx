@@ -9,6 +9,9 @@ const Header = () => {
         textAlign: 'center',
         padding: '10px 0',
         height: '200px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
     };
 
     return (
